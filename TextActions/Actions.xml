@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<action-recipes>
+	
+	<action id="com.onecrayon.phplint" category="onecrayon.phplint">
+		<class>OCShellAction</class>
+		<language-context>php, html.with-php</language-context>
+		<setup>
+			<script>php-lint.py</script>
+			<input>document</input>
+			<output>html</output>
+		</setup>
+	</action>
+	
+</action-recipes>
